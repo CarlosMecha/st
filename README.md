@@ -3,8 +3,9 @@
 st is a simple terminal emulator for X which sucks less.
 
 ## Basic keybindings
-- `Shift+Print`: Prints screen
-- `CapsLock+Print`: Prints selection
+- `Ctrl+Print`: Toggles print screen (for recording to `iofile`).
+- `Shift+Print`: Prints the full screen to `iofile`.
+- `CapsLock+Print`: Prints selection to `iofile`.
 - `Ctrl+Shift+C`: Clipboard copy
 - `Ctrl+Shift+V`: Clipboard paste
 - `Ctrl+Shift+Y`: Paste selection
@@ -17,6 +18,10 @@ st is a simple terminal emulator for X which sucks less.
 ## Requirements
 
 In order to build st you need the Xlib header files.
+
+*IMPORTANT*: Make sure you have the latest code for `dmenu` or
+some parts won't work. The best option is to clone the repo and
+`make install`.
 
 
 ## Installation

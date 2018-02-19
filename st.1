@@ -130,7 +130,7 @@ Send a break in the serial line.
 Break key is obtained in PC keyboards
 pressing at the same time control and pause.
 .TP
-.B Ctrl-Print Screen
+.B Shift-Print Screen
 Toggle if st should print to the
 .I iofile.
 .TP
@@ -138,17 +138,17 @@ Toggle if st should print to the
 Print the full screen to the
 .I iofile.
 .TP
-.B Print Screen
+.B CapsLock-Print Screen
 Print the selection to the
 .I iofile.
 .TP
-.B Ctrl-Shift-Page Up
+.B Ctrl-Shift-+
 Increase font size.
 .TP
-.B Ctrl-Shift-Page Down
+.B Ctrl-Shift--
 Decrease font size.
 .TP
-.B Ctrl-Shift-Home
+.B Ctrl-Shift-0
 Reset to default font size.
 .TP
 .B Ctrl-Shift-y
@@ -163,6 +163,12 @@ Paste from the clipboard selection.
 .B Ctrl-Shift-i
 Launch dmenu to enter a unicode codepoint and send the corresponding glyph
 to st.
+.TP
+.B Shift-PageUp or Shift-MouseScrollUp
+Scrolls up.
+.TP
+.B Shift-PageDown or Shift-MouseScrollDown
+Scrolls down.
 .SH CUSTOMIZATION
 .B st
 can be customized by creating a custom config.h and (re)compiling the source
