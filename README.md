@@ -11,6 +11,8 @@ st is a simple terminal emulator for X which sucks less.
 - `Ctrl+Shift++`: Zoom in
 - `Ctrl+Shift+-`: Zoom out
 - `Ctrl+Shift+0`: Zoom reset
+- `Shift+PageUp` or `Shift+MouseScrollUp`: Scroll up
+- `Shift+PageDown` or `Shift+MouseScrollDown`: Scroll down
 
 ## Requirements
 
@@ -39,5 +41,6 @@ See the man page for additional details.
 
 # Credits
 
-Based on Aurélien APTEL <aurelien dot aptel at gmail dot com> bt source code.
+Based on Aurélien APTEL <aurelien dot aptel at gmail dot com> bt source code and
+the guys at Suckless :D
 
