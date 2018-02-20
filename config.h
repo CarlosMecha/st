@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-char font[] = "DejaVu Sans Mono:size=9:antialias=true:autohint=true:dpi=180.0";
+char font[] = "DejaVu Sans Mono:size=9:pixelsize=22:antialias=true:autohint=true:dpi=180.0";
 int borderpx = 2;
 
 /*
